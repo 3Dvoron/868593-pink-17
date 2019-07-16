@@ -5,28 +5,26 @@
     <title>PINK форма</title>
   </head>
   <body>
-    <header class="main-header">
-      <a class="main-header__logo-link" href="index.html">
-        <img class="main-header__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="Логотип Pink">
+    <header class="header">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="Логотип Pink">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="site-list__item">
-              <a href="photo.html">Фотографии</a>
-            </li>
-            <li class="site-list__item">
-              <a>Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="photo.html">Фотографии</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="#">Конкурс</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
@@ -36,15 +34,15 @@
           <fieldset class="filters__group">
             <ul class="filters__list">
               <li class="filters__item">
-                  <label class="filters__title" for="suname">фамилия:</label>
+                  <label class="filters__item-title" for="suname">фамилия:</label>
                   <input class="filters__input--surname" id="surname" placeholder="Укажите фамилию*">
               </li>
               <li class="filters__item">
-                  <label class="filters__title" for="name">имя:</label>
+                  <label class="filters__item-title" for="name">имя:</label>
                   <input class="filters__input--name" id="name" placeholder="Укажите ваше имя*">
               </li>
               <li class="filters__item">
-                  <label class="filters__title" for="patronymic">отчество:</label>
+                  <label class="filters__item-title" for="patronymic">отчество:</label>
                   <input class="filters__input--patronymic" id="patronymic" placeholder="Ну и отчество тоже">
               </li>
             </ul>

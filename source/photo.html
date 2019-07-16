@@ -5,28 +5,26 @@
     <title>PINK фотографии</title>
   </head>
   <body>
-    <header class="main-header">
-      <a class="main-header__logo-link" href="index.html">
-        <img class="main-header__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="Логотип Pink">
+    <header class="header">
+      <a class="header__logo-link" href="index.html">
+        <img class="header__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="Логотип Pink">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="site-list__item">
-              <a>Фотографии</a>
-            </li>
-            <li class="site-list__item">
-              <a href="form.html">Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="main-nav__list">
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="index.html">Главная</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a>Фотографии</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__list-item">
+            <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="page-main">
@@ -34,131 +32,121 @@
       <section class="photos">
         <h2 class="photos__title">Взгляните на фотографии, которые выкладывают пользователи!
           Видите, как не хватает ваших?</h2>
-        <ul class="photos__list">
-          <li class="photos__item">
-            <article class="photos__item-wrapper photos__item-wrapper--panorame">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Анна
-                <span class="photos__item-post-time">(5 минут назад)</span>
-              </h3>
-              <p class="photos__item-description">Прыгать или нет?
-                Напишите в коментарии свой совет и смотрите прямую
-                трансляцию в перископе, задавайте свои вопросы!</p>
-              <p class="photos__item-like">Нравится: 215</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Левон
-                <span class="photos__item-post-time">(5 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
-              <p class="photos__item-like">Нравится: 356</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Антон
-                <span class="photos__item-post-time">(12 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Соседи будут рады!</p>
-              <p class="photos__item-like">Нравится: 666</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Борис
-                <span class="photos__item-post-time">(20 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Здесь могла быть ваша цитата о высоком и вечном.</p>
-              <p class="photos__item-like">Нравится: 215</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Сергей
-                <span class="photos__item-post-time">(25 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Самая кубанская в мире!</p>
-              <p class="photos__item-like">Нравится: 4</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Максим
-                <span class="photos__item-post-time">(40 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Где снег-то?</p>
-              <p class="photos__item-like">Нравится: 150</p>
-            </article>
-          </li>
-          <li class="photos__item">
-            <article class="photos__item-wrapper">
-              <a class="photos__item-link" href="#">
-                <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
-              </a>
-              <h3 class="photos__item-author">Надежда
-                <span class="photos__item-post-time">(45 часов назад)</span>
-              </h3>
-              <p class="photos__item-description">Всем GM и взаимные лайки!</p>
-              <p class="photos__item-like">Нравится: 2560</p>
-            </article>
-          </li>
-        </ul>
+        <div class="photos__inner inner">
+          <article class="photos__item photos__item--panorame">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Анна
+              <span class="photos__item-post-time">(5 минут назад)</span>
+            </h3>
+            <p class="photos__item-description">Прыгать или нет?
+              Напишите в коментарии свой совет и смотрите прямую
+              трансляцию в перископе, задавайте свои вопросы!</p>
+            <p class="photos__item-like">Нравится: 215</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Левон
+              <span class="photos__item-post-time">(5 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <p class="photos__item-like">Нравится: 356</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Антон
+              <span class="photos__item-post-time">(12 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Соседи будут рады!</p>
+            <p class="photos__item-like">Нравится: 666</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Борис
+              <span class="photos__item-post-time">(20 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            <p class="photos__item-like">Нравится: 215</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Сергей
+              <span class="photos__item-post-time">(25 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Самая кубанская в мире!</p>
+            <p class="photos__item-like">Нравится: 4</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Максим
+              <span class="photos__item-post-time">(40 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Где снег-то?</p>
+            <p class="photos__item-like">Нравится: 150</p>
+          </article>
+          <article class="photos__item">
+            <a class="photos__item-link" href="#">
+              <img class="photos__item-image" src="http://placehold.it/150x100" width="150" height="100" alt="Панорама дня">
+            </a>
+            <h3 class="photos__item-author">Надежда
+              <span class="photos__item-post-time">(45 часов назад)</span>
+            </h3>
+            <p class="photos__item-description">Всем GM и взаимные лайки!</p>
+            <p class="photos__item-like">Нравится: 2560</p>
+          </article>
+        </div>
       </section>
       <section class="picture-loader">
-        <h2 class="picture-loader__title">Затмите их всех! Выкладывайте все,
-          что накопилось в телефоне!</h2>
-        <form class="picture-loader__tools" method="GET" action="https://echo.htmlacademy.ru">
-          <img class="picture-loader__image" src="http://placehold.it/150x100" width="150" height="100" alt="Загружаемая фотография">
-          <ul class="picture-loader__tools-list">
-            <li class="picture-loader__tools-item">
-              <button class="picture-loader__tools-button picture-loader__tools-botton--crop" type="button">Обрезка</button>
-            </li>
-            <li class="picture-loader__tools-item">
-              <button class="picture-loader__tools-button picture-loader__tools-button--fill" type="button">Заливка</button>
-            </li>
-            <li class="picture-loader__tools-item">
-              <button class="picture-loader__tools-button picture-loader__tools-botton--contrast" type="button">Контраст</button>
-            </li>
-          </ul>
-          <ul class="picture-loader__setters-list">
-            <li class="picture-loader__setter">
-              <label class="picture-loader__setter-name">Обрезка
-                <input class="picture-loader__setter-value" type="range" name="crop-value">
-              </label>
-            </li>
-            <li class="picture-loader__setter">
-              <label class="picture-loader__setter-name">Заливка
-                <input class="picture-loader__setter-value" type="range" name="fill-value">
-              </label>
-            </li>
-            <li class="picture-loader__setter">
-              <label class="picture-loader__setter-name">Контраст
-                <input class="picture-loader__setter-value" type="range" name="contrast-value">
-              </label>
-            </li>
-          </ul>
-          <button class="picture-loader__button" type="submit">Запостить</button>
-          <button class="picture-loader__button" type="reset">Отмена</button>
-        </form>
+        <div class="picture-loader__inner inner">
+          <h2 class="picture-loader__title">Затмите их всех! Выкладывайте все,
+            что накопилось в телефоне!</h2>
+          <form class="picture-loader__tools" method="GET" action="https://echo.htmlacademy.ru">
+            <img class="picture-loader__image" src="http://placehold.it/150x100" width="150" height="100"
+              alt="Загружаемая фотография">
+            <ul class="picture-loader__tools-list">
+              <li class="picture-loader__tools-item">
+                <button class="picture-loader__tools-button picture-loader__tools-botton--crop" type="button">Обрезка</button>
+              </li>
+              <li class="picture-loader__tools-item">
+                <button class="picture-loader__tools-button picture-loader__tools-button--fill" type="button">Заливка</button>
+              </li>
+              <li class="picture-loader__tools-item">
+                <button class="picture-loader__tools-button picture-loader__tools-botton--contrast"
+                  type="button">Контраст</button>
+              </li>
+            </ul>
+            <ul class="picture-loader__setters-list">
+              <li class="picture-loader__setter">
+                <label class="picture-loader__setter-name">Обрезка
+                  <input class="picture-loader__setter-value" type="range" name="crop-value">
+                </label>
+              </li>
+              <li class="picture-loader__setter">
+                <label class="picture-loader__setter-name">Заливка
+                  <input class="picture-loader__setter-value" type="range" name="fill-value">
+                </label>
+              </li>
+              <li class="picture-loader__setter">
+                <label class="picture-loader__setter-name">Контраст
+                  <input class="picture-loader__setter-value" type="range" name="contrast-value">
+                </label>
+              </li>
+            </ul>
+            <button class="picture-loader__button" type="submit">Запостить</button>
+            <button class="picture-loader__button" type="reset">Отмена</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="page-footer">
