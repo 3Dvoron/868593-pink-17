@@ -5,8 +5,161 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="header">
+      <div class="header__inner inner">
+        <a class="header__logo-link">
+          <img class="header__logo-image" src="http://placehold.it/150x100" width="100" height="30" alt="Логотип PINK">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">Открыть меню</button>
+          <ul class="main-nav__list">
+            <li class="main-nav__list-item">
+              <a class="main-nav__link" href="#">главная</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a class="main-nav__link" href="#">фотографии</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a class="main-nav__link" href="#">конкурс</a>
+            </li>
+            <li class="main-nav__list-item">
+              <a class="main-nav__link" href="#">html academy</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page-main">
+      <h1 class="visually-hidden">Приложение "PINK" – раскарась серые будни</h1>
+      <section class="app-download">
+        <h2 class="visually-hidden">Посмотри на мир через розовые очки</h2>
+        <img class="app-download__image" src="http://placehold.it/150x100" width="320" height="396" alt="Изображение руки с телфоном ">
+        <a class="app-download__link" href="#">Скачать приложение </a>
+        <ul class="app-download__market-list">
+          <li class="app-download__market-item">
+            <a class="app-download__market-link market-link--app-store" href="#">App Store</a>
+          </li>
+          <li class="app-download__market-item">
+            <a class="app-download__market-link market-link--play-market" href="#">Play Market</a>
+          </li>
+          <li class="app-download__market-item">
+            <a class="app-download__market-link market-link--windows-market" href="#">Windows Market</a>
+          </li>
+        </ul>
+        <p class="app-download__market-info">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section class="advantages">
+        <div class="advantages__wrapper">
+          <h2 class="visually-hidden">Преимущества приложения</h2>
+          <p class="advantages-subtitle">Устали от серости мегаполиса?</p>
+          <p class="advantages-subtitle">Нам есть, что вам предложить!</p>
+          <ul class="advantages__list">
+            <li class="advantages__list-item">
+              <h3 class="advantages__list-title">Поднимает настроение</h3>
+              <p class="advantages__list-discription">Приложение позволит вам победить осеннюю хандру и депрессию
+                  буквально в несколько кликов!</p>
+            </li>
+            <li class="advantages__list-item">
+              <h3 class="advantages__list-title">Меняет мир вокруг</h3>
+              <p class="advantages__list-description">Сделайте снимок и украсьте его смайликом или текстовой подписью,
+                чтобы усилить эффект</p>
+            </li>
+            <li class="advantages__list-item">
+              <h3 class="advantages__list-title">Заводит новых друзей</h3>
+              <p class="advantages__list-description">Ставьте лайки, комментируйте, делитесь фотографиями с
+                друзьями и заводите новых</p>
+            </li>
+          </ul>
+          <img class="advantages__image" src="http://placehold.it/150x100" width="320" height="315" alt="Изображение телефона на экране смайлик">
+        </div>
+      </section>
+      <section class="comments">
+        <div class="comments__wrapper slider">
+          <h2 class="visually-hidden">Отзывы</h2>
+          <div class="comments__list">
+            <blockquote class="comments__item">
+              <cite class="comments__author">Николай Петров</cite>
+              <p class="comments__text">«Это приложение перевернуло мой мир и позволило по-новому
+                  взглянуть на привычные серые вещи! А еще я познакомился со своей будущей
+                  женой в комментариях к выложенной фотографии!</p>
+            </blockquote>
+            <blockquote class="comments__item">
+              <cite class="comments__author">добавить автора</cite>
+              <p class="comments__text">Добавиить комментарий</p>
+            </blockquote>
+            <blockquote class="comments__item">
+              <cite class="comments__author">добавить автора</cite>
+              <p class="comments__text">Добавиить комментарий</p>
+            </blockquote>
+          </div>
+          <p class="comments__toggles-list">
+            <button class="comments__toggle comments__toggle--active" type="button" >1</button>
+            <button class="comments__toggle" type="button">2</button>
+            <button class="comments__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+      <section class="prices">
+          <div class="prices__wrapper">
+            <h2 class="visually-hidden">Тарифы</h2>
+            <table class="prices__list">
+              <tr class="prices__item">
+                <td class="prices__title">
+                  <p class="prices__name">База</p>
+                  <p class="prices__value">1,99 USD</p>
+                </td>
+                <td class="prices__component prices__component--checked">Розовый фильтр</td>
+                <td class="prices__component prices__component--unchecked">Смайлики</td>
+                <td class="prices__component prices__component--unchecked">Комментарии</td>
+              </tr>
+              <tr class="prices__item">
+                <td class="prices__title">
+                  <p class="prices__name">Стандарт</p>
+                  <p class="prices__value">3,99 USD</p>
+                </td>
+                <td class="prices__component prices__component--checked">Розовый фильтр</td>
+                <td class="prices__component prices__component--checked">Смайлики</td>
+                <td class="prices__component prices__component--unchecked">Комментарии</td>
+              </tr>
+              <tr class="prices__item">
+                <td class="prices__title">
+                  <p class="prices__name">Анлим</p>
+                  <p class="prices__value">9,99 USD</p>
+                </td>
+                <td class="prices__component prices__component--checked">Розовый фильтр</td>
+                <td class="prices__component prices__component--checked">Смайлики</td>
+                <td class="prices__component prices__component--checked">Комментарии</td>
+              </tr>
+            </table>
+            <p class="prices__toggles-list">
+              <button class="prices__toggle" type="button">1</button>
+              <button class="prices__toggle prices__toggle--active" type="button">2</button>
+              <button class="prices__toggle" type="button">3</button>
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <div class="page-footer__inner inner">
+          <section class="contacts">
+            <h2 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h2>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <p class="contacts__name">Звоните:</p>
+                <a class="contacts__value" href="tel:+78125556666">+7 (812) 555-66-66</a>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__name">Пишите:</p>
+                <a class="contacts__value" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+              </li>
+              <li class="contacts__item">
+                <p class="contacts__name">Приезжайте в гости:</p>
+                <a class="contacts__value">ул. Большая Конюшенная, 19/8</a>
+              </li>
+            </ul>
+            <img class="contacts__map" src="http://placehold.it/150x100" width="1" height="100" alt="Карта">
+          </section>
+        </div>
+      </footer>
   </body>
 </html>
