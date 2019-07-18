@@ -1,0 +1,27 @@
+.contacts__title {
+  font-size: 24px;
+  font-weight: normal;
+  background-color: white;
+}
+.contacts__list{
+  list-style: none;
+  background-color: white;
+}
+.contacts__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.contacts__value {
+  font-size: 24px;
+  color: #d22856;
+}
+.contacts__map {
+  background-image: url("../../img/bg-triangle-white-footer.svg");
+}
+.contacts__map-wrapper {
+  background-image: url("../../source/img/bg-map-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: 0px -450px;
+  width: 320px;
+  height: 250px;
+}
