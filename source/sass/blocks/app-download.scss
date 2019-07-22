@@ -1,11 +1,13 @@
 .app-download {
   background-color: #1d2631;
 }
+
 .app-download__market-info {
   font-size: 14px;
   font-weight: lighter;
   color: white;
 }
+
 .app-download__link {
   font-size: 18px;
   font-weight: bold;
@@ -19,6 +21,7 @@
   margin-bottom: 40px;
   display: block;
 }
+
 .app-download__market-list {
   display: flex;
   justify-content: space-evenly;
@@ -26,6 +29,7 @@
   width: 320px;
   padding: 0;
 }
+
 .app-download__image {
   background-image: url("../../source/img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;

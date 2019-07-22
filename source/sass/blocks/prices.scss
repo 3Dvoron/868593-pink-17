@@ -1,26 +1,32 @@
 .prices__wrapper {
   width: 320px;
 }
+
 .prices__item {
   text-transform: uppercase;
 }
+
 .prices__list {
   display: flex;
   flex-wrap: wrap;
 }
+
 .prices__name {
   font-size: 18px;
   font-weight: bold;
   width: 320px;
   color: white;
 }
+
 .prices__value {
   font-size: 24px;
   color: white;
 }
+
 .prices__title {
   background-color: #283645;
 }
+
 .prices-component {
   font-size: 14px;
   font-weight: normal;

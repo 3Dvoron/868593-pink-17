@@ -1,11 +1,12 @@
-  .main-nav {
+.main-nav {
   background-color: #283645;
   font-family: $font-normal;
   font-size: 18px;
   line-height: 32px;
   font-weight: 700;
   color: white;
-  }
+}
+
 .main-nav__list {
   width: 320px;
   text-align: center;
@@ -14,18 +15,21 @@
   margin: 0;
   padding: 0;
 }
+
 .main-nav__list-item {
   width: 320px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 23px;
   padding-bottom: 23px;
-  box-shadow: 0px 1px 0 0 #000000, inset 0px 1px 0 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 0 0 #000000, inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
+
 .main-nav__link {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .app-download__image {
   background-image: url("../../source/img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
