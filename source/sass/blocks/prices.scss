@@ -1,5 +1,5 @@
 .prices__wrapper {
-  width: 320px;
+  min-width: 320px;
 }
 
 .prices__item {
@@ -14,7 +14,7 @@
 .prices__name {
   font-size: 18px;
   font-weight: bold;
-  width: 320px;
+  min-width: 320px;
   color: white;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .prices__title {
-  background-color: #283645;
+  background-color: $main-color;
 }
 
 .prices-component {

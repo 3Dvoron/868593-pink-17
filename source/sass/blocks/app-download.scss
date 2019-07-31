@@ -26,12 +26,13 @@
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  width: 320px;
+  min-width: 320px;
   padding: 0;
 }
 
 .app-download__image {
-  background-image: url("../../source/img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: 0;
   background-repeat: no-repeat;
   background-size: 320px 462px;
   margin-bottom: 28px;

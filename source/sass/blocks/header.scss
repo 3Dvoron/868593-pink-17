@@ -1,5 +1,5 @@
 .header {
-  background-image: url("../../source/img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 462px;
 }
@@ -11,7 +11,7 @@
 }
 
 .header__inner {
-  width: 320px;
+  min-width: 320px;
   display: flex;
   justify-content: space-between;
   background-color: #1d2631;

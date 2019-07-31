@@ -16,7 +16,7 @@
 
 .contacts__value {
   font-size: 24px;
-  color: #d22856;
+  color: $font-info;
 }
 
 .contacts__map {
@@ -24,9 +24,9 @@
 }
 
 .contacts__map-wrapper {
-  background-image: url("../../source/img/bg-map-mobile@1x.png");
+  background-image: url("../img/bg-map-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: 0 -450px;
-  width: 320px;
+  min-width: 320px;
   height: 250px;
 }
