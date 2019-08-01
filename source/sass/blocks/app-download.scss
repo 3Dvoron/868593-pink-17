@@ -1,0 +1,40 @@
+.app-download {
+  background-color: #1d2631;
+}
+
+.app-download__market-info {
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+}
+
+.app-download__link {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: 3px solid white;
+  border-radius: 35px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.app-download__market-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  min-width: 320px;
+  padding: 0;
+}
+
+.app-download__image {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 320px 462px;
+  margin-bottom: 28px;
+  padding-top: 110px;
+}

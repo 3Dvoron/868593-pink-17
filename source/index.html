@@ -3,24 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="header">
       <div class="header__inner inner">
         <a class="header__logo-link">
-          <img class="header__logo-image" src="http://placehold.it/150x100" width="100" height="30" alt="Логотип PINK">
+          <img class="header__logo-image" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип PINK">
         </a>
-        <nav class="main-nav">
-          <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <button class="header__toogle" type="button"><img class="header__toggle-image" src="img/icon-menu-burger.svg" alt="открыть меню"></button>
+        <nav class="main-nav visually-hidden">
+          <button class="main-nav__toggle" type="button" aria-label="открыть/закрыть меню"></button>
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
-              <a class="main-nav__link" href="#">главная</a>
+              <a class="main-nav__link">главная</a>
             </li>
             <li class="main-nav__list-item">
-              <a class="main-nav__link" href="#">фотографии</a>
+              <a class="main-nav__link" href="photo.html">фотографии</a>
             </li>
             <li class="main-nav__list-item">
-              <a class="main-nav__link" href="#">конкурс</a>
+              <a class="main-nav__link" href="form.html">конкурс</a>
             </li>
             <li class="main-nav__list-item">
               <a class="main-nav__link" href="#">html academy</a>
@@ -33,17 +35,23 @@
       <h1 class="visually-hidden">Приложение "PINK" – раскарась серые будни</h1>
       <section class="app-download">
         <h2 class="visually-hidden">Посмотри на мир через розовые очки</h2>
-        <img class="app-download__image" src="http://placehold.it/150x100" width="320" height="396" alt="Изображение руки с телфоном ">
+        <img class="app-download__image" src="/img/iphone-hand-mobile@1x.png" width="320" height="320" alt="Изображение руки с телфоном ">
         <a class="app-download__link" href="#">Скачать приложение </a>
         <ul class="app-download__market-list">
           <li class="app-download__market-item">
-            <a class="app-download__market-link market-link--app-store" href="#">App Store</a>
+            <a class="app-download__market-link market-link--app-store" href="#">
+              <img class="app-download__market-logo" src="/img/logo-apple.svg" alt="логотип Apple" aria-label="App Store">
+            </a>
           </li>
           <li class="app-download__market-item">
-            <a class="app-download__market-link market-link--play-market" href="#">Play Market</a>
+            <a class="app-download__market-link market-link--play-market" href="#">
+              <img class="app-download__market-logo" src="/img/logo-android.svg" alt="логотип Android" aria-label="Play Market">
+            </a>
           </li>
           <li class="app-download__market-item">
-            <a class="app-download__market-link market-link--windows-market" href="#">Windows Market</a>
+            <a class="app-download__market-link market-link--windows-market" href="#">
+              <img class="app-download__market-logo" src="/img/logo-microsoft.svg" alt="логотип Windows" aria-label="Windows Market">
+            </a>
           </li>
         </ul>
         <p class="app-download__market-info">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
@@ -56,7 +64,7 @@
           <ul class="advantages__list">
             <li class="advantages__list-item">
               <h3 class="advantages__list-title">Поднимает настроение</h3>
-              <p class="advantages__list-discription">Приложение позволит вам победить осеннюю хандру и депрессию
+              <p class="advantages__list-description">Приложение позволит вам победить осеннюю хандру и депрессию
                   буквально в несколько кликов!</p>
             </li>
             <li class="advantages__list-item">
@@ -70,7 +78,7 @@
                 друзьями и заводите новых</p>
             </li>
           </ul>
-          <img class="advantages__image" src="http://placehold.it/150x100" width="320" height="315" alt="Изображение телефона на экране смайлик">
+          <img class="advantages__image" src="/img/iphone-screen-mobile@1x.png" width="157" height="320" alt="Изображение телефона на экране смайлик">
         </div>
       </section>
       <section class="comments">
@@ -79,15 +87,13 @@
           <div class="comments__list">
             <blockquote class="comments__item">
               <cite class="comments__author">Николай Петров</cite>
-              <p class="comments__text">«Это приложение перевернуло мой мир и позволило по-новому
-                  взглянуть на привычные серые вещи! А еще я познакомился со своей будущей
-                  женой в комментариях к выложенной фотографии!</p>
+              <p class="comments__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
             </blockquote>
-            <blockquote class="comments__item">
+            <blockquote class="comments__item visually-hidden">
               <cite class="comments__author">добавить автора</cite>
               <p class="comments__text">Добавиить комментарий</p>
             </blockquote>
-            <blockquote class="comments__item">
+            <blockquote class="comments__item visually-hidden">
               <cite class="comments__author">добавить автора</cite>
               <p class="comments__text">Добавиить комментарий</p>
             </blockquote>
@@ -103,7 +109,7 @@
           <div class="prices__wrapper">
             <h2 class="visually-hidden">Тарифы</h2>
             <table class="prices__list">
-              <tr class="prices__item">
+              <tr class="prices__item visually-hidden">
                 <td class="prices__title">
                   <p class="prices__name">База</p>
                   <p class="prices__value">1,99 USD</p>
@@ -117,11 +123,17 @@
                   <p class="prices__name">Стандарт</p>
                   <p class="prices__value">3,99 USD</p>
                 </td>
-                <td class="prices__component prices__component--checked">Розовый фильтр</td>
-                <td class="prices__component prices__component--checked">Смайлики</td>
-                <td class="prices__component prices__component--unchecked">Комментарии</td>
               </tr>
               <tr class="prices__item">
+                <td class="prices__component prices__component--checked">Розовый фильтр</td>
+              </tr>
+              <tr class="prices__item">
+                <td class="prices__component prices__component--checked">Смайлики</td>
+              </tr>
+              <tr class="prices__item">
+                <td class="prices__component prices__component--unchecked">Комментарии</td>
+              </tr>
+              <tr class="prices__item visually-hidden">
                 <td class="prices__title">
                   <p class="prices__name">Анлим</p>
                   <p class="prices__value">9,99 USD</p>
@@ -157,7 +169,9 @@
                 <a class="contacts__value">ул. Большая Конюшенная, 19/8</a>
               </li>
             </ul>
-            <img class="contacts__map" src="http://placehold.it/150x100" width="1" height="100" alt="Карта">
+            <div class="contacts__map-wrapper">
+              <img class="contacts__map visually-hidden" src="#" width="320" height="645" alt="Карта">
+            </div>
           </section>
         </div>
       </footer>
