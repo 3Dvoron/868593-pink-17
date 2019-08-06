@@ -5,6 +5,13 @@
   line-height: 32px;
   font-weight: 700;
   color: white;
+  position: relative;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  right: 0;
+  top: -48px;
 }
 
 .main-nav__list {
@@ -31,8 +38,29 @@
 }
 
 .app-download__image {
-  background-image: url("/source/img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: 320px 462px;
   background-position-y: -60px;
+}
+
+@media (min-width: $tablet) {
+  .main-nav {
+    display: flex;
+    min-width: 660px;
+  }
+
+  .main-nav__toggle {
+    top: -65px;
+  }
+
+  .main-nav__list {
+    width: 660px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .main-nav__toggle {
+    display: none;
+  }
 }
