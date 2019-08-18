@@ -1,6 +1,4 @@
 .photos {
-  width: 320px;
-  margin: 0 auto;
   background-color: #ffffff;
 }
 
@@ -23,7 +21,7 @@
 }
 
 @media (min-width: $tablet) {
-  .photos{
+  .photos {
     min-width: 660px;
   }
 
@@ -36,6 +34,20 @@
 
   .photos__item {
     width: 45%;
+  }
+
+  .photos__item--panorame {
+    width: 100%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .photos {
+    min-width: $desktop;
+  }
+
+  .photos__item {
+    width: 33%;
   }
 
   .photos__item--panorame {

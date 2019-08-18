@@ -26,7 +26,7 @@
 .contacts__map-wrapper {
   background-image: url("../img/bg-map-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 0 -450px;
+  background-position: center -450px;
   min-width: 320px;
   height: 250px;
 }
@@ -48,4 +48,9 @@
   .contacts__item {
     width: 45%;
   }
+
+  // .contacts__map-wrapper {
+  //   background-image: url("../img/");
+  //   background-repeat: no-repeat;
+  // }
 }

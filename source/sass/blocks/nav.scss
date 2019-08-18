@@ -1,4 +1,4 @@
-.main-nav {
+.nav {
   background-color: $main-color;
   font-family: $font-normal;
   font-size: 18px;
@@ -8,13 +8,23 @@
   position: relative;
 }
 
-.main-nav__toggle {
-  position: absolute;
-  right: 0;
-  top: -48px;
+.nav__inner {
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-nav__list {
+.nav__toggle {
+  display: block;
+  background-image: url("../img/icon-menu-burger.svg");
+  background-repeat: no-repeat;
+  background-size: 50px 24px;
+  // position: absolute;
+  // right: 0;
+  // top: -48px;
+}
+
+.nav__list {
+  display: block;
   min-width: 320px;
   text-align: center;
   text-decoration: none;
@@ -23,7 +33,7 @@
   padding: 0;
 }
 
-.main-nav__list-item {
+.nav__list-item {
   min-width: 320px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 23px;
@@ -31,36 +41,49 @@
   box-shadow: 0 1px 0 0 #000000, inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
-.main-nav__link {
+.nav__link {
   color: white;
   text-transform: uppercase;
   text-decoration: none;
 }
 
-.app-download__image {
-  background-image: url("../img/bg-back-mobile@1x.jpg");
-  background-repeat: no-repeat;
-  background-size: 320px 462px;
-  background-position-y: -60px;
-}
 
 @media (min-width: $tablet) {
-  .main-nav {
-    display: flex;
+  .nav {
     min-width: 660px;
   }
 
-  .main-nav__toggle {
+  .nav__toggle {
     top: -65px;
   }
 
-  .main-nav__list {
+  .nav__list {
     width: 660px;
   }
+  // .nav--open {
+  //   .nav__list {
+  //     display: block;
+  //   }
+  // }
+
+  // .nav--nojs {
+  //   .nav__list {
+  //     display: block;
+  //   }
+  //   .nav__toggle {
+  //     display: none;
+  //   }
+  // }
 }
 
 @media (min-width: $desktop) {
-  .main-nav__toggle {
+  .nav__toggle {
     display: none;
+  }
+
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 }

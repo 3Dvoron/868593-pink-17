@@ -45,17 +45,22 @@
   margin: 0 auto;
   background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat, no-repeat;
-  background-position: 0% 110px, 50% -67px;
-  background-size: auto, contain;
+  background-position: center 110px, 50% -67px;
+  background-size: auto, 100%;
 }
 
 .app-download__inner {
-  width: 320px;
-  margin: 0 auto;
   margin-top: 400px;
   min-height: 252px;
   padding: 0 19px 0 20px;
   box-sizing: border-box;
+}
+
+.app-download__image {
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: 320px 462px;
+  background-position-y: -60px;
 }
 
 @media (min-width: $tablet) {
@@ -73,6 +78,7 @@
 
   .app-download__slogan {
     display: block;
+    min-width: 284px;
     margin: 0;
     padding: 0 45px 10px 63px;
     margin-bottom: 18px;
@@ -80,6 +86,7 @@
   }
 
   .app-download__inner {
+    width: 300px;
     margin: 0;
     margin-top: 100px;
   }

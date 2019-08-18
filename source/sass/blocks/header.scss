@@ -5,16 +5,11 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.header__logo-image {
+.header__logo-link {
+  display: block;
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 20px;
-}
-
-.header__inner {
-  min-width: 320px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header__toogle {

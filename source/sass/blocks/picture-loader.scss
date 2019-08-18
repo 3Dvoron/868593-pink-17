@@ -2,3 +2,20 @@
   font-size: 14px;
   font-weight: normal;
 }
+
+.picture-loader__tools-list {
+  list-style: none;
+}
+
+.picture-loader__setters-list {
+  list-style: none;
+}
+
+@media (min-width: $tablet) {
+  .picture-loader__tools {
+    min-width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}

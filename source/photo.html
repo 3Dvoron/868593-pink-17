@@ -2,34 +2,36 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PINK фотографии</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="header__inner inner">
-        <a class="header__logo-link" href="index.html">
-          <img class="header__logo-image" src="/img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип Pink">
-        </a>
-        <nav class="main-nav">
-          <button class="main-nav__toggle" type="button" aria-label="открыть/закрыть меню"></button>
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a class="main-nav__link" href="index.html">Главная</a>
+      <header class="header">
+        <nav class="header__nav nav nav--open nav--nojs">
+          <div class="nav__inner inner">
+            <a class="header__logo-link">
+              <img class="header__logo-image" src="./img/logo-pink-white-mobile.svg" width="75" height="22"
+                alt="Логотип PINK">
+            </a>
+            <button class="nav__toggle" type="button" aria-label="открыть/закрыть меню"></button>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__list-item">
+              <a class="nav__link" href="index.html">главная</a>
             </li>
-            <li class="main-nav__list-item">
-              <a>Фотографии</a>
+            <li class="nav__list-item">
+              <a class="nav__link">фотографии</a>
             </li>
-            <li class="main-nav__list-item">
-              <a class="main-nav__link" href="form.html">Конкурс</a>
+            <li class="nav__list-item">
+              <a class="nav__link" href="form.html">конкурс</a>
             </li>
-            <li class="main-nav__list-item">
-              <a class="main-nav__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <li class="nav__list-item">
+              <a class="nav__link" href="#">html academy</a>
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
+      </header>
     <main class="page-main">
       <h1 class="page-title">Фотографии пользователей</h1>
       <section class="photos">
@@ -155,22 +157,30 @@
     <footer class="page-footer">
       <div class="page-footer__inner inner">
         <a class="page-footer__logo">
-          <img class="page-footer__logo-image" src="http://placehold.it/150x100" width="150" height="100" alt="Логотип PINK">
+          <img class="page-footer__logo-image" src="./img/logo-pink-blue-mobile.svg" width="150" height="100" alt="Логотип PINK">
         </a>
         <ul class="page-footer__social social">
           <li class="social__item">
-            <a class="social__link social__link--tw" href="#">Twitter</a>
+            <a class="social__link social__link--tw" href="#">
+              <img src="./img/icon-twitter.svg" width="18" height="14" alt="twitter">
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--fb" href="#">Facebook</a>
+            <a class="social__link social__link--fb" href="#">
+                <img src="./img/icon-facebook.svg" width="9" height="18" alt="Facebook">
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--yt" href="#">Youtube</a>
+            <a class="social__link social__link--yt" href="#">
+                <img src="./img/icon-youtube.svg" width="15" height="13" alt="Youtube">
+            </a>
           </li>
         </ul>
         <div class="page-footer__copyright copyright">
           <p class="copyright__developed">Разработано</p>
-          <a class="copyright__link" href="https://up.htmlacademy.ru/adaptive/17">htmlacademy</a>
+          <a class="copyright__link" href="https://up.htmlacademy.ru/adaptive/17">
+            <img src="./img/logo-htmlacademy.svg" width="27" height="34" alt="htmlacademy">
+          </a>
         </div>
       </div>
     </footer>
