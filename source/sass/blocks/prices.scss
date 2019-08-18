@@ -1,20 +1,27 @@
-.prices__wrapper {
-  min-width: 320px;
-}
-
 .prices__item {
   text-transform: uppercase;
 }
 
-.prices__list {
+.prices__wrapper {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  width: 100%;
+  min-height: 505px;
+  overflow: hidden;
+}
+
+.prices__list {
+  position: absolute;
+  width: 100%;
+  top: 125px;
+  border-collapse: collapse;
 }
 
 .prices__name {
   font-size: 18px;
   font-weight: bold;
-  min-width: 320px;
+  // min-width: 320px;
   color: white;
 }
 
@@ -25,9 +32,20 @@
 
 .prices__title {
   background-color: $main-color;
+  border: 2px solid #e5e5e5;
 }
 
 .prices-component {
   font-size: 14px;
   font-weight: normal;
+}
+
+@media (min-width: $tablet) {
+  .prices__title {
+    width: 152px;
+  }
+
+  .prices__item {
+    width: 152px;
+  }
 }

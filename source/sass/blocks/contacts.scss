@@ -20,13 +20,37 @@
 }
 
 .contacts__map {
-  background-image: url("../../img/bg-triangle-white-footer.svg");
+  background-image: url("../img/bg-triangle-white-footer.svg");
 }
 
 .contacts__map-wrapper {
   background-image: url("../img/bg-map-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 0 -450px;
+  background-position: center -450px;
   min-width: 320px;
   height: 250px;
+}
+
+@media (min-width: $tablet) {
+  .contacts__title {
+    font-size: 40px;
+    line-height: normal;
+    width: 370px;
+    margin: 0 auto;
+  }
+
+  .contacts__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .contacts__item {
+    width: 45%;
+  }
+
+  // .contacts__map-wrapper {
+  //   background-image: url("../img/");
+  //   background-repeat: no-repeat;
+  // }
 }

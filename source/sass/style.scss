@@ -1,7 +1,9 @@
 @import "variables.scss";
 @import "base.scss";
+@import "mixins.scss";
+@import "blocks/inner.scss";
 @import "blocks/header.scss";
-@import "blocks/main-nav.scss";
+@import "blocks/nav.scss";
 @import "blocks/page-main.scss";
 @import "blocks/advantages.scss";
 @import "blocks/app-download.scss";
@@ -12,3 +14,6 @@
 @import "blocks/photos.scss";
 @import "blocks/picture-loader.scss";
 @import "blocks/filters.scss";
+@import "blocks/effect.scss";
+@import "blocks/worksheet.scss";
+@import "blocks/app-form.scss";
