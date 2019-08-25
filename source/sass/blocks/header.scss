@@ -10,8 +10,21 @@
   padding-top: 22px;
   padding-bottom: 22px;
   padding-left: 20px;
+  color: #ffffff;
+
+  &:hover {
+    color: $font-info;
+  }
 }
 
 .header__toogle {
   border: 0;
+}
+
+.header__logo-tablet {
+  display: none;
+}
+
+.header__logo-desktop {
+  display: none;
 }
